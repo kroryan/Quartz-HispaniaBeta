@@ -1,0 +1,130 @@
+@use "./variables.scss" as *;
+
+/* ============================================================
+   Hispania Royal House — Player's Guide
+   A medieval / heraldic theme: parchment, gold and royal red.
+   ============================================================ */
+
+:root {
+  --hrh-gold: #b7933d;
+  --hrh-gold-soft: #d6a84f;
+  --hrh-red: #8b2635;
+}
+
+/* Parchment-like page background with a faint warm vignette */
+body {
+  background-image:
+    radial-gradient(ellipse at top, rgba(183, 147, 61, 0.06), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(139, 38, 53, 0.05), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Headings: heraldic caps with a thin gold rule */
+h1,
+h2,
+h3,
+.page-title {
+  font-family: "Cinzel", serif !important;
+  letter-spacing: 0.02em;
+}
+
+article h1,
+article h2 {
+  border-bottom: 2px solid var(--hrh-gold);
+  padding-bottom: 0.2rem;
+}
+
+article h2::before {
+  content: "❧ ";
+  color: var(--hrh-gold);
+  opacity: 0.8;
+}
+
+/* The site title in the top-left, like a royal seal */
+.page-title a {
+  color: var(--hrh-red);
+  text-shadow: 0 1px 0 rgba(183, 147, 61, 0.25);
+}
+
+/* Links: heraldic, gold underline on hover */
+a {
+  text-decoration-color: var(--hrh-gold);
+}
+a.internal {
+  background-color: rgba(183, 147, 61, 0.12);
+  border-radius: 4px;
+  padding: 0 0.15rem;
+}
+
+/* Tables styled like a ledger / charter */
+table {
+  border: 1px solid var(--hrh-gold);
+  box-shadow: 0 2px 8px rgba(44, 33, 20, 0.15);
+}
+thead {
+  background: linear-gradient(var(--hrh-gold), var(--hrh-gold-soft));
+}
+thead th {
+  color: #2c2114 !important;
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.03em;
+}
+tbody tr:nth-child(odd) {
+  background: rgba(183, 147, 61, 0.06);
+}
+
+/* Blockquotes & callouts: framed parchment notes */
+blockquote {
+  border-left: 4px solid var(--hrh-gold);
+  background: rgba(183, 147, 61, 0.07);
+  border-radius: 0 6px 6px 0;
+}
+.callout {
+  border-radius: 6px;
+  border: 1px solid rgba(183, 147, 61, 0.4);
+  box-shadow: 0 1px 6px rgba(44, 33, 20, 0.12);
+}
+
+/* Screenshots / images: framed like a portrait in the gallery */
+article img {
+  border-radius: 8px;
+  border: 2px solid var(--hrh-gold);
+  box-shadow: 0 4px 14px rgba(44, 33, 20, 0.35);
+  display: block;
+  margin: 1.2rem auto;
+  max-width: 100%;
+}
+
+/* The home-page hero banner (the first image on index) */
+.home-banner img,
+article > p:first-of-type > img:only-child {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border: 3px solid var(--hrh-gold);
+}
+
+/* Mermaid diagrams: sit on a faint parchment card */
+.mermaid {
+  background: rgba(183, 147, 61, 0.05);
+  border: 1px solid rgba(183, 147, 61, 0.3);
+  border-radius: 8px;
+  padding: 0.6rem;
+}
+
+/* Code & inline tags */
+code {
+  border: 1px solid rgba(183, 147, 61, 0.3);
+}
+
+/* Explorer / sidebar in the body serif */
+.explorer button,
+#toc-content,
+.toc {
+  font-family: "EB Garamond", serif;
+}
+
+/* A subtle gold top border on the whole page frame */
+.page > #quartz-body {
+  border-top: 3px solid var(--hrh-gold);
+}
