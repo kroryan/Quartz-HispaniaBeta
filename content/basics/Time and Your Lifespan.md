@@ -1,57 +1,60 @@
 ---
 title: Time and Your Lifespan
-description: How time passes, how monarchs age and die, and how reigns flow from one to the next.
+description: How seasons pass, how rulers age and die, and how reigns flow from one heir to the next.
 tags:
   - basics
 ---
 
-# ⏳ Time and Your Lifespan
+# Time and Your Lifespan
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-The game runs across a vast stretch of history — **722 to 1492** — but you experience it one decision at a time.
+The game runs from **722** to **1492**, but you experience it one decision at a time.
 
-## A turn is a season
+## Seasons, not single days
 
-Each ordinary card advances the calendar by about a **season** (three months). Four seasons make a year. So a long, careful reign can span decades of game-time, while the world ages around you: people grow up, marry, and pass away.
+Most normal event cards advance time by **three months**. Four real card turns make a year:
 
 ```mermaid
 flowchart LR
-    W[❄️ Winter] --> Sp[🌱 Spring] --> Su[☀️ Summer] --> Au[🍂 Autumn] --> W2[❄️ next year]
+    W[Winter] --> S[Spring]
+    S --> U[Summer]
+    U --> A[Autumn]
+    A --> W
 ```
 
-## Monarchs age and die
+Action follow-ups such as scheme reports, marriage arrangements and alliance reactions are quicker. They resolve consequences without necessarily spending a full season.
 
-Your ruler gets older with the years. Death can come from:
-- 🕰️ **Old age** — the most natural ending for a long, successful reign.
-- 🤒 **Events** — plague, a battle wound, a fall, poison, a difficult childbirth, and so on, delivered by cards.
-- 💥 **Collapse** — a [[The Four Powers|Power]] crisis, bankruptcy, or being overthrown.
+## Rulers age and die
 
-You can sometimes ease the toll: a ruler who **rests** recovers a little and lowers their stress (see [[Traits and Your Character]]).
+Your current ruler ages with the calendar. Old age becomes dangerous, but death can also come from war, plague, poison, collapse, debt, crisis or event choices.
 
-## One death, a new chapter
-
-When your monarch dies, the game moves to a **reign-end** screen summarising their life, then your **heir** is crowned and you continue as them. The throne, the lands and the family history carry over — but each new monarch starts a fresh political balance, so an out-of-control Army or Church doesn't automatically doom the newcomer.
+When a ruler dies, the game shows the death and reign-end sequence, then checks succession:
 
 ```mermaid
 flowchart TD
-    A[Monarch reigns] --> B[Monarch dies]
-    B --> C{Is there a valid heir?}
-    C -->|yes| D[Heir is crowned —<br/>you keep playing]
-    C -->|no| E[💀 Game over:<br/>the dynasty falls]
-    D --> A
+    A[Ruler dies] --> B{Eligible heir?}
+    B -->|yes| C[Heir inherits<br/>the house continues]
+    B -->|no| D{Easy or Normal<br/>emergency blood relative?}
+    D -->|yes| C
+    D -->|no| X[Defeat]
 ```
 
-## The clock is also a goal
+Each new ruler starts a new chapter. They inherit the house, lands and history, but they still have to manage their own court, finances and crises.
 
-History has an ending. If you reach **1492**, the era closes — and what happens depends on whether you've fulfilled your destiny (most famously, taking **Granada**). The march of time is both your enemy and your scoreboard. See [[Winning and Losing]].
+## The 1492 horizon
 
-## Practical takeaways
+History closes in **1492**. If your house has already unified Hispania, victory can be recorded and you may be able to continue ruling the united realm until the date arrives. If 1492 arrives without victory, the campaign ends in defeat.
 
-- 👶 Secure an **heir early** — death can come at any time ([[Your Dynasty and Heirs]]).
-- 🛌 Use **rest** when stress is high and the realm is calm.
-- 🏰 Don't measure success by one monarch — measure it by the **dynasty** across centuries.
+Granada remains a major scripted milestone and can still deliver the classic Reconquista ending, but the current sandbox victory is broader: one house controlling the whole peninsula. See [[Winning and Losing]].
+
+## Tips
+
+- Think in **seasons**. A few bad cards can burn years quickly.
+- Secure heirs before your ruler becomes old or stressed.
+- Use long reigns to build permanent advantages: [[Dynasty Legacy|legacies]], [[Culture and Innovations|innovations]] and [[Doctrines and Excommunication|doctrines]].
+- Do not measure success by one ruler. Measure the house across centuries.
 
 ---
 
-*Next: [[Your Dynasty and Heirs]] · Related: [[Winning and Losing]].*
+*Related: [[Your Dynasty and Heirs]], [[Winning and Losing]], [[Difficulty]].*

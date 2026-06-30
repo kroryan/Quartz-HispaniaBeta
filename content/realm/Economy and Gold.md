@@ -5,66 +5,67 @@ tags:
   - realm
 ---
 
-# 💰 Economy and Gold
+# Economy and Gold
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-Underneath the [[The Four Powers|Treasury]] bar sits a real economy of **gold and debt**. Master it and you can fund wars, buildings and a lavish court; neglect it and bankruptcy will topple you.
+Underneath the [[The Four Powers|Treasury]] bar sits a real economy of **gold**, **income**, **upkeep** and **debt**. Master it and you can fund wars, buildings and court life. Neglect it and insolvency can topple your ruler.
 
 ![[economy-screen.png]]
-*The economy screen — your gold, debt, holdings and the options to build, borrow and repay.*
+*The economy screen shows your gold, debt, holdings and building options.*
 
 ## Gold vs. the Treasury bar
 
-- 💰 **Gold** is your actual money — earned, spent, saved and owed.
-- 📊 The **Treasury bar** is a *reflection* of your financial health (your gold, your debt, your income). Healthy finances push the bar up; debt drags it down.
+- **Gold** is your actual money: earned, spent, saved and owed.
+- **Treasury** is the Power bar that reflects your financial health.
 
-So building real wealth is what keeps that bar green.
+Healthy income and savings push Treasury upward. Debt, deficits and unpaid obligations drag it down.
 
-## Where money comes from and goes
+## Where money comes from
 
-```mermaid
-flowchart LR
-    subgraph In[Income 💵]
-      H[Holdings & buildings] --> G((Gold))
-      P[Your provinces] --> G
-      T[Taxes from your demesne] --> G
-    end
-    subgraph Out[Costs 💸]
-      Court[Court upkeep] --> N
-      War[War & troop upkeep] --> N
-      Build[Holding upkeep] --> N
-      Debt[Debt interest] --> N
-    end
-    G --> N{Surplus or deficit?}
-    N -->|surplus| G
-    N -->|deficit| D[(Debt grows ⚠️)]
-```
+Your income comes mainly from:
 
-- 💵 **Income** grows with your lands, their development, and the buildings you own.
-- 💸 **Costs** include your court, your soldiers (especially [[Armies and Men-at-Arms|men-at-arms]]), war, and interest on any debt.
+- Counties and holdings controlled by your house.
+- Productive buildings in your lands.
+- Stewardship and council actions that improve taxes or development.
+- A large enough realm to support the court you are running.
 
-## Buildings and holdings
+Costs come from court upkeep, wars, professional troops, debt interest and expensive decisions.
 
-You can **buy productive holdings** — mills, markets, estates and more — that raise your income, and sell them if you need cash. Each has a cost, a resale value and a year it becomes available. Noble houses build up their own economies too, which is part of what makes them powerful.
+## Buildings
+
+Buildings are bought in a **selected county controlled by your house**. Each has an unlock year, a purchase cost and a resale value. Later buildings are expensive, but they can carry a large realm through long wars.
+
+| Building | Available | Cost | Role |
+|---|---:|---:|---|
+| Royal estate | 722 | 45 | Early reliable income |
+| River mill | 722 | 85 | Strong early development |
+| Chartered market | 780 | 145 | Urban income base |
+| Wool pasture | 900 | 210 | Mid-game rural wealth |
+| Saltworks | 930 | 260 | High-value production |
+| Royal mint | 980 | 380 | Mature royal economy |
+| Royal port | 1100 | 460 | Maritime income |
+| Merchants' exchange | 1180 | 560 | Late commercial power |
+| Crown annuities | 1250 | 720 | Expensive late-game finance |
+
+Noble houses also build their own economies, which is one reason a rival can become dangerous even without immediately expanding.
 
 ## Borrowing and debt
 
-Short of cash? You can **borrow** — but loans come due with **interest**, and there's a limit based on what you can repay. Debt is a tool, not a free lunch.
+Borrowing is useful when it prevents a worse disaster: a lost war, unpaid troops or a missed strategic chance. It is not free money. Debt creates interest pressure, weakens Treasury and can become a crisis if your income cannot catch up.
 
-## Bankruptcy — a real lose condition
+If debt spirals into insolvency, the reigning ruler can be removed. If you have an heir, the dynasty may survive with the books partly reset. If you have no heir, bankruptcy can become a game over.
 
-Let debt spiral and you become **insolvent**. Persistent insolvency can **topple the reigning monarch**. The one mercy: if you have an heir, the crisis usually passes to them with the books partly cleared, rather than ending the dynasty outright. With **no heir**, bankruptcy can be game over.
-
-> [!warning] Debt is patient and pitiless
-> A war funded entirely on loans can win the battle and lose the dynasty. Keep a reserve, repay when you can, and don't let interest snowball.
+> [!warning] Debt buys time, not safety
+> A loan-funded war can be correct, but only if winning creates enough income or security to repay it. Borrowing to maintain an already failing position is usually a slow collapse.
 
 ## Tips
 
-- 🏗️ **Invest** in holdings during peacetime to grow steady income.
-- 💰 Keep a **cash reserve** before wars.
-- 🧾 **Borrow** sparingly and repay from surplus.
-- 🪖 Only keep as many [[Armies and Men-at-Arms|professional troops]] as your income sustains.
+- Build during peace, not only after you feel rich.
+- Keep cash ready before declaring war.
+- Recruit only the [[Armies and Men-at-Arms|men-at-arms]] your income can sustain.
+- Sell holdings only when the alternative is worse.
+- Lower-rank starts should prioritize one or two dependable income buildings before ambitious wars.
 
 ---
 

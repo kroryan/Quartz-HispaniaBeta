@@ -7,7 +7,7 @@ tags:
 
 # 🎚️ Difficulty
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> 📌 *Game as of **30 June 2026** (beta) — details may change.*
 
 You choose a difficulty when you begin. It doesn't change *what* the game is — it changes how **forgiving** it is.
 

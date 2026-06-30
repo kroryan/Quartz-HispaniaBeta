@@ -1,55 +1,65 @@
 ---
 title: Succession Laws
-description: The six ways the throne can pass — primogeniture, absolute, agnatic, cognatic, elective and conquest — and how to choose.
+description: The ways power can pass through your dynasty, and how faith and title rules affect eligibility.
 tags:
   - dynasty
 ---
 
-# 📜 Succession Laws
+# Succession Laws
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-Your **succession law** decides *who* inherits the throne. Choosing the right one for your family is a quietly powerful strategic lever. You can change it from the realm/laws menu.
+Your succession law decides who inherits when a ruler dies. Because the game now supports different starting houses, ranks and faiths, the best law depends on the family you actually chose in [[Choosing Your Start]].
 
 ## The six laws
 
-| Law | Who inherits | Best when… |
+| Law | Who inherits | Best when... |
 |---|---|---|
-| 👑 **Primogeniture** | Eldest child, **sons preferred** | The classic default — a solid all-rounder |
-| ⚖️ **Absolute primogeniture** | Eldest child, **gender doesn't matter** | You want your eldest, son or daughter, every time |
-| ♂️ **Agnatic** | **Only men** of the blood may inherit | You have strong sons and want a male line |
-| ♀️ **Cognatic** | Eldest child, **daughters preferred** | You have capable daughters to favour |
-| 🗳️ **Elective** | A strong candidate (even outside the direct line) | You value skill/claims over birth order |
-| ⚔️ **Right of conquest** | The mightiest claimant by martial power | A warlord dynasty ruling by strength |
+| Primogeniture | Eldest child, sons preferred | You want a predictable default |
+| Absolute primogeniture | Eldest child, gender ignored | Your eldest should inherit no matter their sex |
+| Agnatic | Only men of the bloodline | You have a secure male line |
+| Cognatic | Eldest child, daughters preferred | You want to favour daughters |
+| Elective | A strong eligible candidate | You value ability, claims or politics over strict birth order |
+| Right of conquest | The strongest martial claimant | Your dynasty rules by force |
 
 ## How the line is searched
 
-When a monarch dies, the game looks for an heir in a sensible order:
-
 ```mermaid
 flowchart TD
-    A[Need an heir] --> B[Your direct children<br/>eligible under the law]
-    B -->|none| C[Brothers / sisters<br/>and their lines]
-    C -->|none| D[More distant blood<br/>· or strong claimants under<br/>elective/conquest]
-    D -->|none| E[Spouse or emergency<br/>blood relative]
+    A[Need an heir] --> B[Direct children eligible under law]
+    B -->|none| C[Siblings and their lines]
+    C -->|none| D[More distant blood or special claimants]
+    D -->|none| E[Emergency relative or spouse case]
+    E -->|none| X[Dynasty failure]
 ```
 
-The exact order is shaped by your chosen law — for example, **agnatic** simply skips every woman, and **elective/conquest** can reach for a powerful candidate the other laws would ignore.
+The exact order is shaped by the law. Agnatic skips women. Elective and conquest can reach beyond the direct firstborn line when politics or strength justify it.
+
+## Faith restrictions
+
+Faith can add eligibility rules on top of succession law:
+
+- Muslim secular title holders must be male in the current implementation.
+- Christian and Jewish realms do not use that Muslim secular-title restriction.
+- Bastards normally cannot inherit unless legitimised.
+
+This means a law that looks safe on paper can still fail if your faith and title rules make the apparent heir ineligible.
 
 ## Choosing wisely
 
-- 👧 **All daughters, no sons?** Avoid **agnatic** — it can leave you heirless. Use **absolute** or **cognatic**.
-- 🧠 **A brilliant cousin and a weak direct heir?** **Elective** lets merit win.
-- ⚔️ **A martial, expansionist run?** **Conquest** rewards the strongest sword.
-- 🤷 **Not sure?** **Primogeniture** or **absolute** are safe, predictable defaults.
+- If you have only daughters, avoid agnatic law.
+- If your eldest is clearly best, absolute primogeniture is simple and stable.
+- If the direct heir is weak but the dynasty is broad, elective may save the realm.
+- If you are playing a martial conquest run, right of conquest can match your strategy.
+- If you are Muslim, keep eligible male heirs in mind for secular rule.
 
 > [!tip] Match the law to the family you have
-> Don't pick a law in the abstract — look at your actual tree first. The "best" law is the one that puts a **capable, eligible heir** at the front of the line. A perfect law with no eligible heir is worse than a plain one with three.
+> Do not choose succession in the abstract. Open the dynasty view, look at actual children, siblings, sex, legitimacy, age and faith rules, then pick the law that leaves a living eligible heir.
 
-## A note on bastards
+## Bastards
 
-Children born out of wedlock normally **cannot** inherit under any law — unless you **legitimise** them. See [[Bastards]].
+Children born out of wedlock normally cannot inherit. Legitimation can rescue a succession crisis, especially for Christian rulers with papal access. See [[Bastards]] and [[The Papacy]].
 
 ---
 
-*Next: [[Marriage and Family]] · Related: [[Your Dynasty and Heirs]], [[Bastards]].*
+*Next: [[Marriage and Family]] - Related: [[Your Dynasty and Heirs]], [[Bastards]], [[Faith and Religion]].*

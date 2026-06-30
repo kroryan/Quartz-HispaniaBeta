@@ -1,13 +1,13 @@
 ---
 title: The Royal Court
-description: Your court, your courtiers, and why actively governing keeps the crown stable.
+description: Your court, your courtiers, and why actively governing keeps your rule stable.
 tags:
   - court
 ---
 
 # 🏛️ The Royal Court
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> 📌 *Game as of **30 June 2026** (beta) — details may change.*
 
 Your **court** is the living world of people around the throne — relatives, officials, clergy and noble guests. It's where you appoint officers, manage intrigue, and keep the powerful happy.
 

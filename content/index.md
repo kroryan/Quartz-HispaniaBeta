@@ -1,37 +1,39 @@
 ---
-title: Hispania Royal House — Player's Guide
-description: The complete player's guide to Hispania Royal House — how to rule, survive and forge a dynasty across 770 years of Spanish history.
+title: Hispania Royal House - Player's Guide
+description: The complete player's guide to Hispania Royal House - choosing a start, ruling a house, surviving succession and uniting Hispania.
 tags:
   - home
 ---
 
 ![[banner.jpg]]
 
-# 👑 Hispania Royal House — Player's Guide
+# Hispania Royal House - Player's Guide
 
-Welcome, Your Majesty. This is the **complete player's guide** to *Hispania Royal House* — a game where you rule a royal dynasty across **770 years of medieval Spain**, from the mountains of Asturias in the year **722** to the gates of Granada in **1492**.
+Welcome. This is the **player's guide** to *Hispania Royal House*: a dynasty game about choosing a medieval Iberian house, surviving from **722** to **1492**, and trying to bring all of Hispania under one line.
 
-You don't command armies tile-by-tile or micro-manage spreadsheets. You **rule by decision**: courtiers, bishops, generals and rivals come to you, card by card, and you choose. Every choice ripples outward — into your treasury, your faith, your armies, and the survival of your bloodline. When one monarch dies, you continue as their heir. The dynasty is the real hero of the story.
+You do not command armies tile by tile. You **rule by decision**. Courtiers, clergy, generals, merchants and rivals come to you as cards, and each choice shifts your faith authority, people, army, treasury, family and map position. When one ruler dies, the story continues through an heir if the house survives.
 
-> [!warning] Please read — this guide is a snapshot
-> This guide describes the game **as of 29 June 2026**, while it is in **beta** and under active development. Exact numbers, rules, menus and screens **may change** in later versions. Treat everything here as "how it works right now," not a permanent contract. When in doubt, trust what the game shows you.
-
----
-
-## 🧭 New here? Start with these
-
-- 🃏 [[How to Play]] — the absolute basics in five minutes.
-- ⚖️ [[The Four Powers]] — the four bars that decide whether you keep your crown.
-- 👶 [[Your Dynasty and Heirs]] — children, heirs, and not going extinct.
-- 🏆 [[Winning and Losing]] — what you're actually trying to achieve.
-- 💡 [[Strategy and Tips]] — how to survive your first reigns.
+> [!warning] Please read - this guide is a snapshot
+> This guide describes the game **as of 30 June 2026**, reviewed against the current *Crowns of hispania* codebase after the `fa24e89` wiki baseline. The game is in beta and under active development, so exact numbers, rules, menus and screens may change. When in doubt, trust what the game shows you.
 
 ---
 
-## 📚 Full guide
+## New here? Start with these
+
+- [[How to Play]] - the absolute basics in five minutes.
+- [[Choosing Your Start]] - kingdoms, duchies, counties, baronies and faith filters.
+- [[The Four Powers]] - the four bars that decide whether your rule survives.
+- [[Your Dynasty and Heirs]] - children, heirs and not going extinct.
+- [[Winning and Losing]] - the real victory and defeat conditions.
+- [[Strategy and Tips]] - how to survive your first reigns.
+
+---
+
+## Full guide
 
 ### Getting started
 - [[How to Play]]
+- [[Choosing Your Start]]
 - [[The Four Powers]]
 - [[Making Decisions]]
 - [[Time and Your Lifespan]]
@@ -79,27 +81,27 @@ You don't command armies tile-by-tile or micro-manage spreadsheets. You **rule b
 
 ---
 
-## 🌍 The fantasy in one picture
+## The fantasy in one picture
 
 ```mermaid
 flowchart LR
-    A([You are crowned]) --> B[Answer event cards<br/>season by season]
+    A([Choose a house and title]) --> B[Answer event cards<br/>season by season]
     B --> C{Keep the realm<br/>in balance}
     C -->|succeed| D[Grow: land, faith,<br/>family, gold]
-    C -->|fail| E[Crisis or death]
+    C -->|fail| E[Crisis, death<br/>or deposition]
     D --> F([Your heir inherits])
     E --> F
     F --> B
-    D -.->|reach 1492 united| W([🏁 Victory: a united Hispania])
+    D -.->|control every county| W([Victory: a united Hispania])
 ```
 
-Every monarch is one chapter. The **goal** is to keep the bloodline going, expand your realm, and — if you're bold — **reunite all of Hispania under your crown** before history closes the book in 1492. See [[Winning and Losing]].
+Every ruler is one chapter. The **goal** is to keep your chosen house alive, stay landed, grow through the feudal ladder, and eventually **unite every county of Hispania under your house** before the era closes in 1492. Granada remains the classic historical milestone, but the sandbox victory now follows actual control of the peninsula. See [[Winning and Losing]].
 
 > [!example] The throne room
-> This is where you'll spend most of your reign — reading event cards and balancing the [[The Four Powers|four Powers]] shown at the top.
+> This is where you will spend most turns: reading event cards and balancing the [[The Four Powers|four Powers]] shown at the top.
 >
 > ![[main-screen.png]]
 
 ---
 
-*A fan-style player's guide. Hispania Royal House is in beta — see the disclaimer above.*
+*A fan-style player's guide. Hispania Royal House is in beta - see the disclaimer above.*

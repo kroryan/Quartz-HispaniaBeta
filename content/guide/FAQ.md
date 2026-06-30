@@ -5,47 +5,67 @@ tags:
   - guide
 ---
 
-# ❓ FAQ
+# FAQ
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
 Short answers to common questions. Each links to the full explanation.
 
 ### What am I actually trying to do?
-Keep your dynasty alive across the centuries and, ultimately, **unite Hispania** — take Granada before 1492. See [[Winning and Losing]].
+
+Keep your chosen house alive, stay landed and eventually **unite every county of Hispania under your house** before 1492. Granada is a major milestone, but not the only victory check. See [[Winning and Losing]].
+
+### Do I have to start as Asturias?
+
+No. The recommended kingdom start is the most direct, but the current game lets you choose playable kingdoms, duchies, counties and baronies, with Christian and Islamic filters. See [[Choosing Your Start]].
 
 ### How do I avoid losing?
-Three rules: keep the [[The Four Powers|four Powers]] off the extremes, always have an **heir**, and stay out of crippling **debt**. Most defeats come from breaking one of these. See [[Strategy and Tips]].
 
-### My king died — is it game over?
-No! Your **heir** takes over and you keep playing. It's only game over if there's **no valid heir**, or you're toppled with no one to inherit. See [[Your Dynasty and Heirs]].
+Keep the [[The Four Powers|four Powers]] off the extremes, always have an heir, stay solvent and do not lose your last landed foothold. Most defeats combine several failures at once.
+
+### My ruler died - is it game over?
+
+Usually no. Your heir takes over if one exists. It is game over if there is no valid heir, no emergency blood relative on easier modes, or no landed path for the house to continue. See [[Your Dynasty and Heirs]].
 
 ### Why can't I attack al-Andalus?
-At the start it's a single, unified power that's too strong to touch. You must wait for it to **fragment into taifas**, then you can conquer south. See [[The Map of Hispania]].
+
+Before 1031, unified al-Andalus is protected as a huge centralised power. It becomes a normal conquest target after it fragments into taifas. See [[The Map of Hispania]].
 
 ### Why can't I declare war on this neighbour?
-You probably lack a **claim** (a casus belli), are out of **reach**, are **allied** with them, or the **rank** difference is too great. Press and mature a claim first. See [[War]] and [[Diplomacy and Alliances]].
 
-### What do the colours/bars at the top mean?
-They're your four Powers — ⛪ Church, 🌾 People, ⚔️ Army, 💰 Treasury. Keep them in the middle; empty is a crisis, and an over-full Church or Army is dangerous too. See [[The Four Powers]].
+You may lack a matured **claim**, be out of campaign reach, be allied to the target, have another active player war, be blocked by rank rules, or be targeting protected unified al-Andalus. See [[War]].
+
+### How long does a claim last?
+
+Once a war claim is ready, it currently remains valid for **12 years**. If you wait too long, it lapses.
+
+### What do the bars at the top mean?
+
+They are your four Powers: religious authority (Church, Umma or Aljama), People, Army and Treasury. Keep them in the middle; empty is a crisis, and an over-full religious Power or Army is dangerous too. See [[The Four Powers]].
 
 ### Should I have more than one child?
-Yes — strongly. A single heir can be lost to plague or war, ending the dynasty. Aim for an heir **and spares**. See [[Marriage and Family]].
 
-### My Army (or Church) is maxed out — is that good?
-No. An over-mighty Army can spark a **civil war**, and an over-mighty Church can hold you hostage. Keep them strong but **not dominant**. See [[Crises and Disasters]].
+Yes. A single heir can die to plague, war, court events or old age timing. Several legitimate relatives make the house far safer. See [[Marriage and Family]].
+
+### What's different about Islamic starts?
+
+Islamic starts use Umma-flavoured faith authority, ignore papal excommunication, can use Islamic doctrines, and Islamic male rulers may have up to four living spouses. Al-Andalus can still fracture into taifas in 1031. See [[Faith and Religion]].
 
 ### What's the difference between gold and the Treasury bar?
-**Gold** is your real money; the **Treasury bar** reflects your overall financial health. Build real wealth and the bar takes care of itself. See [[Economy and Gold]].
+
+**Gold** is actual money. The **Treasury bar** is your broader financial health, affected by gold, debt, income and pressure. See [[Economy and Gold]].
 
 ### How do I become a king?
-Climb the feudal ladder — baron → count → duke → king — through war, diplomacy or intrigue, backing each title with real land. See [[Climbing the Ladder]].
 
-### Does the difficulty really change much?
-Yes. Harder modes hit losses harder and remove safety nets (like the emergency heir and crisis reprieve). See [[Difficulty]].
+Climb the feudal ladder - barony to county to duchy to kingdom - through war, diplomacy, inheritance and title plots. See [[Climbing the Ladder]].
+
+### Does difficulty really change much?
+
+Yes. Harder modes make negative outcomes harsher and remove safety nets like emergency succession mercy. See [[Difficulty]].
 
 ### Is this the final version of the game?
-No — the game is in **beta** and actively developed. This guide is a snapshot as of **29 June 2026**, and details may change in later versions.
+
+No. The game is in beta and actively developed. This guide is a snapshot as of **30 June 2026**.
 
 ---
 

@@ -1,56 +1,53 @@
 ---
 title: Crown Authority and Tyranny
-description: How hard you squeeze your vassals — authority for income and troops, tyranny as the price of ruling by force.
+description: How hard you squeeze vassals, and the political cost of ruling by force.
 tags:
   - court
 ---
 
-# ⚖️ Crown Authority and Tyranny
+# Crown Authority and Tyranny
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-How much power does the crown hold over its [[Noble Houses and Vassals|nobles]]? That's the tug-of-war between **authority** (what they owe you) and the **tyranny** you incur by overreaching.
+Authority is how much formal power your title has over [[Noble Houses and Vassals|vassals]]. Tyranny is the cost of ruling lawlessly. Even when you are not literally a king, the same logic applies to your ruling house.
 
-## Crown authority
+## Authority
 
-Authority sets how much **tax and troops** your vassals owe. You can raise or lower it.
+Authority sets how much tax and military support vassals owe. Raising it strengthens your rule, but costs noble goodwill. Lowering it can calm the realm.
 
 ```mermaid
 flowchart LR
-    L[Low authority] -->|more freedom for nobles| N[Nobles content 😊]
-    H[High authority] -->|more tax & levies for you| Y[Stronger crown 💪]
-    H -->|but costs noble goodwill| U[Nobles resentful 😠]
+    L[Low authority] --> N[Nobles freer and calmer]
+    H[High authority] --> S[More tax and troops]
+    H --> R[Nobles resent pressure]
 ```
 
-- ⬆️ **Raise it** to wring out more income and manpower — but each step **costs the nobility's goodwill**, and pushing too fast breeds [[Noble Houses and Vassals|factions]].
-- ⬇️ **Lower it** as a gift that wins loyalty back.
-- You can't flip it back and forth instantly — changes have a cooldown.
+Authority changes have a cooldown, so you cannot freely toggle the realm between harsh and soft rule.
 
-## Tyranny — the cost of arbitrary rule
+## Tyranny
 
-**Tyranny** builds up whenever you act *lawlessly* — imprisoning or harming a vassal without justification, or trampling on their rights. While tyranny is high:
-- 😈 Conspiracies grow bolder.
-- 💔 Every noble likes you a little less.
-- ⛪ A Christian ruler risks the [[Doctrines and Excommunication|Pope's wrath]].
+Tyranny rises when you act without lawful justification: harming, imprisoning or trampling a vassal's rights without a good reason. While tyranny is high:
 
-Tyranny fades slowly on its own, but the damage while it's high is real.
+- Conspiracies grow bolder.
+- Noble relations suffer.
+- Christian rulers risk papal hostility if faith standing is also low.
 
-## The lawful way to be ruthless
+Tyranny fades slowly, but the damage while it is high is real.
 
-There's a clean alternative to tyranny: hold **leverage** over a house first. With a **hook** (a secret or a debt) you can force a vassal to comply **without** incurring tyranny — coercion that looks legitimate. See [[Intrigue and Schemes]].
+## Lawful ruthlessness
+
+Hooks are the clean alternative. If you hold leverage over a house, you can force compliance without taking the same tyranny hit. See [[Intrigue and Schemes]].
 
 > [!tip] Three levers, three costs
-> - **Authority** = the law (raises income, costs goodwill).
-> - **Dread** = fear (deters revolt, but fades — see [[Traits and Your Character]]).
-> - **Hooks** = leverage (force compliance with no tyranny).
-> A skilled ruler uses all three rather than leaning on raw cruelty.
+> **Authority** is law. **Dread** is fear. **Hooks** are leverage. A stable ruler uses all three instead of relying only on cruelty.
 
 ## Tips
 
-- 🐢 Raise authority **gradually**, not in a rush.
-- 🪝 Need to lean on a vassal? Get a **hook** first to avoid tyranny.
-- 🧯 If tyranny is high, **back off** and let it decay before the factions and the Church move against you.
+- Raise authority gradually.
+- Get a hook before leaning on a dangerous vassal.
+- If tyranny is high, stop creating new grievances and let it decay.
+- Christian rulers should avoid combining high tyranny with low Church standing.
 
 ---
 
-*Next: [[Intrigue and Schemes]] · Related: [[Noble Houses and Vassals]], [[Doctrines and Excommunication]].*
+*Next: [[Intrigue and Schemes]] - Related: [[Noble Houses and Vassals]], [[Doctrines and Excommunication]].*

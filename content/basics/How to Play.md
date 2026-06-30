@@ -5,62 +5,69 @@ tags:
   - basics
 ---
 
-# 🃏 How to Play
+# How to Play
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-If you've never played, read this page first. Everything else in the guide expands on it.
+If you have never played, read this page first. Everything else in the guide expands on it.
 
 ## The core idea
 
-You are a **monarch**. Each turn, someone in your realm comes to you with a situation — a bishop, a general, a scheming cousin, a hungry village — shown to you as a **card**. You make a decision by choosing one of two options (usually by **swiping** the card left or right, or tapping a choice).
-
-That's the whole game loop. But each small decision quietly moves the things that keep you in power.
+You are the head of a **playable house**. Depending on your start you may be a king, emir, duke, count, wali, baron or another local ruler, but the loop is the same: someone in your realm brings you a situation as a **card**, and you choose one of two responses by swiping or tapping.
 
 ```mermaid
 flowchart TD
     A[A card appears] --> B[Read who is speaking<br/>and what they want]
-    B --> C[Two choices —<br/>each has consequences]
+    B --> C[Two choices with<br/>different consequences]
     C --> D[You choose]
-    D --> E[The Four Powers shift<br/>· time passes · the world reacts]
-    E --> F{Still alive &<br/>still in power?}
+    D --> E[The Powers shift<br/>time passes<br/>the world reacts]
+    E --> F{Still alive,<br/>landed and with heirs?}
     F -->|yes| A
-    F -->|no| G[Your heir takes the throne]
+    F -->|no, but heir survives| G[Your heir takes over]
     G --> A
+    F -->|no heir or no foothold| X[Defeat]
 ```
 
-## The four things you're balancing
+Most ordinary cards advance the calendar by **one season**. Quick reaction cards from actions such as schemes, alliances or marriages resolve immediately without burning a full season.
 
-Every decision nudges four **Powers**: the **Church**, the **People**, the **Army**, and the **Treasury**. Keep all four healthy. Let any one collapse to nothing — or let the Church or Army become *too* powerful — and your reign can end in disaster. This is the heart of the game, explained in full in [[The Four Powers]].
+## First: choose your start
 
-## You will die — and that's fine
+After the intro, you choose a starting **rank**, **faith group** and **title**. The recommended start is a kingdom, but duchies, counties and baronies are playable and intentionally harder. See [[Choosing Your Start]] before starting a difficult lower-rank run.
 
-Monarchs age and die. When yours does, the game doesn't end: your **heir** takes the throne and you keep playing as them. The real failure is **running out of heirs** (your dynasty going extinct) or being **overthrown** with no one to inherit. Securing the next generation is your constant background job — see [[Your Dynasty and Heirs]].
+## The four things you are balancing
 
-## There's more than cards
+Every decision nudges four **Powers**: faith authority, the People, the Army and the Treasury. The first one appears as **Church**, **Umma** or **Aljama** depending on your ruler's faith. Keep all four healthy. Let one collapse to nothing, or let the Church/Umma or Army become too dominant, and your reign can end in disaster. See [[The Four Powers]].
 
-Between decisions you can open menus to actively **rule**:
-- 🗺️ The **map** — manage your lands, wage [[War]], and grow your realm.
-- 🏛️ The **court & council** — appoint officers and manage your [[Noble Houses and Vassals|nobles]].
-- 💰 The **economy** — buildings, gold and debt.
-- ⛪ **Faith** — convert provinces, deal with the [[The Papacy|Pope]].
-- 👨‍👩‍👧 Your **dynasty** — arrange marriages, name heirs, raise children.
+## Your ruler will die
 
-You don't have to use all of these to survive, but ignoring your realm entirely has consequences (see [[The Royal Court|court neglect]]).
+Rulers age, fight, fall ill and get caught in disasters. Death is not automatically game over: your **heir** inherits if one exists and your house remains landed. The real danger is losing the bloodline, losing every holding, or being overthrown with no successor. See [[Your Dynasty and Heirs]].
 
-## Your first ten minutes — a checklist
+## There is more than cards
 
-1. ✅ Read each card's **speaker and request** before choosing — context matters.
-2. ✅ Watch the **four Power bars**. If one is getting low, favour choices that lift it.
-3. ✅ Get **married** and have a **child** early — an heir is your insurance ([[Marriage and Family]]).
-4. ✅ Don't panic over small dips; panic when a bar is near **empty** or near **full**.
-5. ✅ Peek at the **map** and **council** to see your realm, but you can learn those later.
+Between decisions you can open menus to actively **govern**:
+
+- The **map** - manage land, build in your holdings and wage [[War]].
+- The **court & council** - appoint officers and manage [[Noble Houses and Vassals|nobles]].
+- The **economy** - build, borrow, repay and watch debt.
+- **Faith** - convert provinces, adopt doctrines and, if Christian, deal with [[The Papacy]].
+- Your **dynasty** - arrange marriages, name heirs and manage relatives.
+
+Ignoring these systems for too long can trigger [[The Royal Court|court neglect]]. Swiping cards is not the same as ruling.
+
+## Your first ten minutes
+
+1. Pick a start that matches the challenge you want. Kingdom is safest; barony is hardest.
+2. Read each card's speaker and request before choosing.
+3. Watch the four Power bars. Rescue anything near empty and cool down Church/Umma or Army if they are too high.
+4. Secure marriage and children early unless your house already has a wide line.
+5. Open the map and council soon. Build, appoint or plan a claim so court neglect does not start quietly.
 
 ## Where to go next
 
-- ⚖️ [[The Four Powers]] — the single most important page.
-- 🤔 [[Making Decisions]] — how choices, hints and long-term pressure work.
-- 💡 [[Strategy and Tips]] — survive your early reigns.
+- [[Choosing Your Start]] - understand the start selector.
+- [[The Four Powers]] - the single most important survival page.
+- [[Making Decisions]] - how choices, hints and pressure work.
+- [[Strategy and Tips]] - survive your early reigns.
 
 ---
 

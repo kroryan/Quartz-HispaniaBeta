@@ -1,63 +1,63 @@
 ---
 title: Traits and Your Character
-description: How a ruler's personality shapes the realm — traits, stress, lifestyle, dread and raising the next generation.
+description: How a ruler's personality shapes the realm through traits, stress, lifestyle, dread and education.
 tags:
   - dynasty
 ---
 
-# 🧬 Traits and Your Character
+# Traits and Your Character
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-Who your monarch *is* genuinely matters. Personality isn't just flavour text — it tugs at the realm and at your own wellbeing.
+Who your ruler is matters. Personality is not just flavour: it affects the realm, stress and the kind of choices that are easy or painful to make.
 
 ## Traits
 
-Every character carries **traits** — pious, bold, cruel, generous, scholarly, warlike, greedy, and many more, each with its own emblem on the character card. For the **reigning monarch**, traits gently push the [[The Four Powers|Powers]] over time:
+Every character carries traits such as pious, bold, cruel, generous, scholarly, warlike or greedy. For the reigning ruler, traits can gently push the [[The Four Powers|Powers]] over time.
 
-| If your ruler is… | The realm tends to… |
+| If your ruler is... | The realm tends to... |
 |---|---|
-| ⛪ Pious / a cleric | gain Church favour |
-| ⚔️ Warlike / a soldier | gain Army strength |
-| 💰 A merchant / shrewd | gain Treasury |
-| 😈 Cruel / a warmonger | gain Army but lose People or Church |
-| 🤝 Generous / just / charismatic | gain People's love |
-| 🤑 Greedy / miserly | lose the People's goodwill |
+| Pious or a cleric | Gain faith authority |
+| Warlike or a soldier | Gain Army strength |
+| Merchant-minded or shrewd | Gain Treasury |
+| Cruel or a warmonger | Gain Army but lose People or faith authority |
+| Generous, just or charismatic | Gain People's love |
+| Greedy or miserly | Lose People's goodwill |
 
-So **who sits the throne** changes how the realm naturally drifts — a reason to care which heir you raise.
+The heir you raise is not only a name in the line of succession. Their traits will shape the next reign.
 
-## Stress — the ruler's wellbeing
+## Stress
 
-Acting **against your nature** wears a monarch down. A pacifist forced into war, a generous ruler taxing hard, grief from a loved one's death, or a humiliating defeat all raise **stress**. Too much stress can cause a damaging breakdown.
+Acting against your nature wears a ruler down. A pacifist forced into war, a generous ruler taxing hard, grief from a death or a humiliating defeat can all raise stress. Too much stress can cause a damaging breakdown.
 
 ```mermaid
 flowchart LR
-    A[Acting against your traits<br/>· grief · defeat] --> S[Stress rises 📈]
-    S -->|too high| B[💥 A breakdown<br/>with lasting effects]
-    R[Rest · calm choices ·<br/>acting in character] --> D[Stress falls 📉]
+    A[Act against traits, suffer grief or defeat] --> S[Stress rises]
+    S -->|too high| B[Breakdown]
+    R[Rest and act in character] --> D[Stress falls]
 ```
 
-> [!tip] There is always a way down
-> If stress is climbing, **rest** when the realm is calm, and favour choices that fit your ruler's character. You can always bring stress back down — don't let it spiral.
+> [!tip] There is a way down
+> If stress is climbing, rest when the realm is calm and favour choices that fit your ruler's character.
 
 ## Lifestyle and growth
 
-A ruler can pursue a chosen **focus** that, over the years, unlocks lasting **perks** strengthening a pillar of rule (diplomacy, war, stewardship, intrigue or learning). Long reigns let a monarch genuinely *grow* into a specialist.
+A ruler can pursue a focus that unlocks perks over the years, strengthening diplomacy, war, stewardship, intrigue or learning. Long reigns let a ruler grow into a specialist.
 
-## Dread — rule by fear
+## Dread
 
-Stern, harsh rule builds **dread** — an intimidation that discourages revolts. But dread **fades** unless you keep renewing it. It pairs with [[Crown Authority and Tyranny|authority and hooks]] as one of the ways to keep unruly vassals in line — the "fear" lever.
+Harsh rule builds dread: intimidation that discourages revolt. Dread fades unless renewed, and it works best beside lawful tools such as authority and hooks. See [[Crown Authority and Tyranny]].
 
 ## Raising the next generation
 
-Children can be shaped during childhood by a **guardian**, steering their **education** so they grow into their strongest skill. Since the heir you raise will one day rule (and tug the Powers with *their* traits), choosing good guardians is an investment in your dynasty's future.
+Children can be shaped by guardians and education. Since the child you raise may one day rule, guardianship is a long-term investment in your dynasty's future.
 
 ## Takeaways
 
-- 🧭 Play **in character** to keep stress low and the realm drifting your way.
-- 🛌 **Rest** before stress peaks.
-- 🎓 Give promising heirs good **guardians**.
-- 😨 Use **dread** to deter revolts, but remember it decays.
+- Play in character to keep stress manageable.
+- Rest before stress becomes a breakdown.
+- Give promising heirs good guardians.
+- Use dread carefully; it decays and does not replace legitimacy.
 
 ---
 

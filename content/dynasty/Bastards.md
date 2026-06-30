@@ -7,7 +7,7 @@ tags:
 
 # 👶 Bastards
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> 📌 *Game as of **30 June 2026** (beta) — details may change.*
 
 Not every royal child is born in wedlock. **Bastards** are recognised children born outside marriage — and they sit under special rules.
 

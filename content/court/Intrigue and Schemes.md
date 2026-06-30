@@ -7,7 +7,7 @@ tags:
 
 # 🗡️ Intrigue and Schemes
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> 📌 *Game as of **30 June 2026** (beta) — details may change.*
 
 Not every problem is solved in the open. Through your **spymaster** and your own cunning, you can work in the shadows — gathering leverage, plotting, and undermining rivals.
 

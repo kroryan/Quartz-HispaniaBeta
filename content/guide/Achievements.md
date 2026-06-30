@@ -1,46 +1,51 @@
 ---
 title: Achievements
-description: An overview of the achievement categories and the cross-game progress that persists between dynasties.
+description: Achievement categories, persistent card discovery and long-term progress across campaigns.
 tags:
   - guide
 ---
 
-# 🏆 Achievements
+# Achievements
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-The game tracks a broad set of **achievements** that reward all kinds of play — surviving the ages, conquering, raising a great family, and meeting colourful ends. Your progress is saved **across games**, so it carries over from one dynasty to the next.
+The game currently tracks **57 achievements** across survival, conquest, dynasty, family, death, card discovery and historical milestones. Progress is saved across campaigns, so every dynasty contributes to your lifetime record.
 
 ![[achievements-screen.png]]
-*The achievements screen — your lifetime record across every dynasty you've played.*
+*The achievements screen shows your record across campaigns.*
 
-## What the achievements celebrate
+## What achievements celebrate
 
-| Theme | Examples of what they reward |
+| Theme | Examples |
 |---|---|
-| 🕰️ **Reaching the ages** | Surviving to the year 800, 900, 1000 … all the way to 1492 |
-| 🗺️ **Conquest** | Growing your realm to ever-larger sizes |
-| 👑 **Long dynasties** | Ruling across many successive reigns |
-| 🌳 **A great family** | Growing a large, sprawling dynasty |
-| 💍 **Family life** | Marrying, having children |
-| ⚰️ **Memorable deaths** | The many ways a monarch can meet their end |
-| 🏁 **Endgame** | Winning the game — or losing it |
-| 📜 **Collector** | Seeing many different event cards over time |
-| 🏰 **Landmarks** | Holding or achieving famous historical milestones |
+| Reaching the ages | Survive to 800, 900, 1000 and later milestones up to 1492 |
+| Territory | Grow your realm to larger county counts |
+| Reigns | Rule through multiple successive rulers |
+| Bloodline | Build a large dynasty |
+| Family | Marry and have children |
+| Deaths | Encounter memorable ruler deaths |
+| Endings | Win or lose a campaign |
+| Card discovery | See 10, 30, 60, 100, 150 and 200 distinct cards |
+| Landmarks | Oviedo, Leon, Toledo, Cordoba, Seville, Granada campaign, universities, laws, orders, primogeniture and more |
+| Resources | Reach high Power totals |
+| Full map | Control every city or county target required by the achievement |
+
+The live event deck is much larger than the achievement thresholds. The current codebase contains hundreds of event cards, including start-aware, rank-aware, Islamic, Jewish and taifa-specific content.
 
 ## Cross-game progress
 
-Your unlocked achievements — and the set of event cards you've ever encountered — are kept **separately from any single save**, so they persist no matter how many dynasties rise and fall. Every run adds to your lifetime record.
+Unlocked achievements and the list of event cards you have seen are stored separately from any single save. Losing a dynasty does not erase your achievement progress.
 
 > [!note] Explore widely
-> Because achievements reward *variety* — different ages, sizes, family milestones and even different ways to die — you'll see more of them by experimenting across several dynasties than by replaying the same safe strategy.
+> Achievements reward variety. Different starts, faiths, ranks, death paths and endgame outcomes will reveal more of the game than repeating one safe route.
 
 ## Tips
 
-- 🎲 Try **different play styles** across runs to unlock more.
-- 📜 Keep playing new reigns to grow your **cards-seen** collection.
-- 🏁 Both **winning and losing** unlock something — every ending counts.
+- Try starts outside Asturias once you understand the basics.
+- Play at least one lower-rank start to trigger ascent and survival achievements.
+- Let some campaigns continue after major milestones if you are hunting card discovery.
+- Both victory and defeat matter for completion.
 
 ---
 
-*Related: [[Winning and Losing]], [[Strategy and Tips]].*
+*Related: [[Winning and Losing]], [[Strategy and Tips]], [[Choosing Your Start]].*

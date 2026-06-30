@@ -7,7 +7,7 @@ tags:
 
 # 🤔 Making Decisions
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> 📌 *Game as of **30 June 2026** (beta) — details may change.*
 
 Every card is a small fork in the road. Understanding *how* choices work makes you a far better ruler.
 

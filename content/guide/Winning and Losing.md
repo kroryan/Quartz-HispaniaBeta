@@ -1,56 +1,61 @@
 ---
 title: Winning and Losing
-description: How you actually win — uniting Hispania and taking Granada by 1492 — and the ways a dynasty can fall.
+description: How you win by uniting Hispania under your house, how Granada fits in, and how a dynasty can fall.
 tags:
   - guide
 ---
 
-# 🏁 Winning and Losing
+# Winning and Losing
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-Every reign is a chapter, but the **dynasty** is playing for a grand prize across the whole sweep of history.
+Every reign is a chapter, but the **house** is playing the long game.
 
 ## How you win
 
-The great goal is to **reunite Hispania under your crown** — and, above all, to take **Granada**, the last Muslim stronghold, before history closes the era in **1492**.
+The current sandbox victory is clear: **your player house must personally control every county on the Iberian map**.
 
 ```mermaid
 flowchart LR
-    A[Grow your realm<br/>across the reigns] --> B[Push south through<br/>the taifas]
-    B --> C[Conquer Granada 🏰]
-    C --> D[🏆 Victory:<br/>a united Hispania]
+    A[Survive as a landed house] --> B[Grow through titles<br/>and conquests]
+    B --> C[Control every county<br/>on the peninsula]
+    C --> D[Victory: a united Hispania]
 ```
 
-When you achieve it, your triumph is recorded forever. You can even choose to **reign on** over your united realm until the era formally ends in 1492 — a victory lap as the unifier of Spain.
+Granada still matters. The scripted Granada/Reconquista chain remains a major historical milestone and can still trigger the classic victory story, but it is no longer the only path. An Asturian, Navarrese, Andalusi or other house can win if it unites the whole peninsula under itself.
+
+Once victory is recorded, the triumph goes into the chronicle. Depending on the run state, you may be able to continue ruling the united realm until the 1492 horizon.
 
 ## How you lose
 
-There are a few ways the story can end badly:
-
 | Ending | What happened |
 |---|---|
-| 💀 **Extinction** | A monarch died with **no valid heir** — the bloodline ends. |
-| 👑 **Overthrown** | You lost a [[War|civil war]] or were deposed with no one to inherit. |
-| 💰 **Bankruptcy** | Crushing [[Economy and Gold|debt]] toppled you with no heir to pass the crisis to. |
-| 🏰 **Landless** | You lost your last holding and no refuge remained. |
-| 🕰️ **Time runs out** | You reached **1492** without fulfilling your destiny. |
+| **Extinction** | Your ruler died with no valid heir, and no safety-net heir was available. |
+| **Overthrown** | Civil war, deposition or collapse removed you with no successor able to continue. |
+| **Bankruptcy** | Persistent insolvency toppled the ruler and no heir could inherit the battered realm. |
+| **Landless** | Your house lost its last real foothold and no fallback holding remained. |
+| **Time runs out** | The year reached **1492** before victory was achieved. |
 
-The thread running through all of them: **as long as the dynasty has a living heir and a scrap of land, the game goes on.** Most "losses" come from letting the bloodline run out at the same time as a disaster.
+The thread running through most defeats is simple: as long as the house has a living heir and some landed foothold, the game tries to continue. Disaster becomes final when succession and land collapse together.
+
+## Safety nets
+
+On Easy and Normal, a dying house can sometimes elevate an eligible blood relative, and a fallen ruler may be left with a small barony as a second chance. On Hard, expect fewer mercies. See [[Difficulty]] and [[Climbing the Ladder]].
 
 > [!tip] Survival first, glory second
-> You can't unite Hispania if your dynasty dies in 850. Secure heirs and stay solvent across every reign; the grand conquest is something you build toward over **many** monarchs, not one heroic king.
+> You cannot unite Hispania if your line dies out in 850. Secure heirs, stay solvent and stay landed before gambling on a grand war.
 
-## The race against the clock
+## The race against time
 
-History ends in **1492** no matter what. A long, secure dynasty has time to grow toward the great victory; a chaotic one may run out of years. Keep an eye on the calendar (see [[Time and Your Lifespan]]) and don't leave the southern campaign too late.
+The date **1492** is the hard horizon. A steady house has centuries to climb from barony or county to kingdom and then to peninsula-wide rule. A chaotic house can lose decades to civil wars, bankruptcies and succession crises.
 
 ## Tips
 
-- 🛡️ **Never gamble the bloodline** — heirs are everything.
-- 💰 **Stay solvent** — bankruptcy is a quiet killer.
-- ⚔️ Build toward the **south** patiently; rush only when you're strong.
-- 🏰 **Granada by 1492** is the dream — plan the endgame in advance.
+- Keep heirs alive and legitimate.
+- Keep at least one secure landed base.
+- Build economy before large wars.
+- Treat Granada as a major milestone, not the only thing that counts.
+- Watch the whole map: final victory is every county.
 
 ---
 

@@ -1,18 +1,18 @@
 ---
 title: The Papacy
-description: The living Pope — elections, papal favours like blessings, divorce and crusades, and what only Christian rulers can ask of Rome.
+description: The living Pope, papal audiences and the Christian-only favours Rome can grant.
 tags:
   - faith
 ---
 
-# ⛪ The Papacy
+# The Papacy
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-Rome is alive in the background. A real **Pope** reigns, dies, and is replaced — and a Christian crown can ask him for favours that no king could grant himself.
+Rome is a living institution in the background. A Christian ruler can ask the Pope for favours that no secular lord can grant, while Muslim and Jewish rulers use different faith systems and are not subject to papal excommunication.
 
 ![[papacy-screen.png]]
-*The papacy screen — the current Pope, his standing toward you, and the favours you can request.*
+*The papacy screen shows the current Pope, his attitude and available requests.*
 
 ## A living office
 
@@ -21,36 +21,43 @@ stateDiagram-v2
     [*] --> Reigning
     Reigning --> Conclave: the Pope dies
     Conclave --> Reigning: a new Pope is elected
-    Reigning --> Reigning: the years pass
-    Reigning --> Chronicle: each reign recorded in history
+    Reigning --> Chronicle: reign recorded
 ```
 
-Popes age and die; a conclave elects a successor; every papacy is recorded in a chronicle you can read. The current Pope has his own character and priorities, which colour how he responds to you.
+Popes age, die and are replaced. The current Pope has his own standing toward you, which affects how likely requests are to succeed.
 
-## Papal favours (for Christian rulers)
+## Papal favours
 
-When you hold an audience, you can request things only the Church can give:
-- 🙏 **Blessing & support** — favour and legitimacy.
-- 💍 **Divorce** — end a marriage the Church would otherwise forbid.
-- 👶 **Legitimation** — make a [[Bastards|bastard]] a true heir, with Rome's blessing.
-- ⚔️ **Crusade / campaign** — papal backing for holy war.
-- 🎁 **Donations & petitions** — give to, or ask of, the Church.
+Christian rulers can request:
 
-Each request is limited (you get one audience at a time), often costs gold or piety, and can **succeed or fail** depending on the Pope's favour toward you.
+| Request | Typical use |
+|---|---|
+| Blessing or favour | Improve legitimacy, piety or relations with Rome |
+| Divorce | End a politically bad marriage through Church approval |
+| Legitimation | Make a [[Bastards|bastard]] eligible as a true heir |
+| Campaign or crusading support | Seek papal backing for holy war |
+| Donation | Spend gold to improve standing with Rome |
+| Petition | Ask Rome for support in a difficult moment |
 
-> [!note] Only Christians answer to Rome
-> Muslim and Jewish rulers have their own religious authorities and are **not** subject to the Pope — including his power to [[Doctrines and Excommunication|excommunicate]]. Faith genuinely changes how the wider world treats you.
+You get **one papal audience per season**, so timing matters. Many requests also cost gold, piety or political capital.
 
-## Staying in the Pope's good graces
+## Who answers to Rome
 
-A pious, generous, lawful Christian ruler finds Rome a powerful friend — blessings, legitimations and crusades flow more easily. A tyrannical or impious one risks the opposite: the dreaded interdict. See [[Doctrines and Excommunication]].
+Only Christian rulers use papal favour and excommunication. Muslim rulers use the Umma-facing religious frame, and Jewish rulers use the Aljama-facing frame. This is not just flavour: faith changes marriage rules, secular title eligibility and which religious sanctions apply.
+
+See [[Faith and Religion]] and [[Doctrines and Excommunication]].
+
+## Staying in favour
+
+A pious, generous and lawful Christian ruler finds Rome easier to work with. A tyrannical or impious ruler risks the opposite: papal hostility and excommunication pressure.
 
 ## Tips
 
-- 🙏 Keep your **piety and Church standing** up for better odds on papal requests.
-- 💍 Need a politically awkward marriage undone? The Pope is your route.
-- 👶 A papal **legitimation** is a strong, respected way to rescue your line.
+- Save gold before asking for costly papal help.
+- Do not waste the once-per-season audience on a low-value request.
+- Use papal legitimation when succession is the real danger.
+- Muslim and Jewish starts should plan around their own faith rules instead of relying on Rome.
 
 ---
 
-*Next: [[Doctrines and Excommunication]] · Related: [[Faith and Religion]], [[Bastards]].*
+*Next: [[Doctrines and Excommunication]] - Related: [[Faith and Religion]], [[Bastards]].*

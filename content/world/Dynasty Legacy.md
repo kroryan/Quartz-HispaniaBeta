@@ -1,48 +1,49 @@
 ---
 title: Dynasty Legacy
-description: Renown and legacy tracks — the slow, prestigious rewards for a dynasty that endures and grows.
+description: Renown and legacy tracks, the slow permanent rewards for a house that endures.
 tags:
   - world
 ---
 
-# 🏵️ Dynasty Legacy
+# Dynasty Legacy
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-Some rewards belong not to a single king but to the **whole house**. **Renown** and **legacies** are the game's way of honouring a dynasty that survives, grows and achieves greatness across the centuries.
+Some rewards belong not to one ruler but to the whole **house**. Renown and legacies honour a dynasty that survives, grows and achieves greatness across centuries.
 
-## Renown — the dynasty's prestige
+## Renown
 
-Your house earns **renown** every year, based on its standing — its prestige, its great works, and the titles it holds. It builds slowly and deliberately: renown rewards **endurance and growth**, exactly the Reconquista fantasy of a family that outlasts its rivals.
+Your house earns renown over time from prestige, titles, great works and survival. It builds slowly and rewards endurance.
 
 ```mermaid
 flowchart LR
-    A[Prestige · great works ·<br/>titles held] --> B[Renown accrues yearly 🏵️]
-    B --> C[Spend on permanent<br/>legacy tracks]
-    C --> D[Every future ruler<br/>of the line benefits 👑]
+    A[Prestige, works and titles] --> B[Renown accrues]
+    B --> C[Spend on legacies]
+    C --> D[Future rulers benefit]
 ```
 
 ## Legacy tracks
 
-You spend renown on **legacy tracks** — permanent blessings that strengthen your house **forever**. Once bought, a legacy benefits **every future monarch** of your line, surviving every death and succession.
+You spend renown on permanent legacy tracks. Once bought, a legacy benefits future rulers of your house through death, succession and political setbacks.
 
-Unlike your fragile [[The Four Powers|Power bars]] (which reset for each new ruler), legacies are part of the dynasty's permanent backbone — the closest thing the game has to "levelling up" your family itself.
+Unlike the [[The Four Powers|Power bars]], which belong to the current reign, legacies are part of the dynasty's permanent backbone.
 
 ## Part of the long game
 
-Legacies are one of three permanent-progress paths:
-- 🏵️ **Legacies** (this page) — fuelled by renown.
-- 🏺 **[[Culture and Innovations|Innovations]]** — fuelled by cultural progress.
-- 📜 **[[Doctrines and Excommunication|Doctrines]]** — fuelled by Church standing.
+Legacies sit beside two other permanent-progress paths:
 
-A dynasty that survives long enough to invest in all three becomes genuinely formidable.
+- **Legacies** - fuelled by renown.
+- **[[Culture and Innovations|Innovations]]** - fuelled by cultural progress.
+- **[[Doctrines and Excommunication|Doctrines]]** - fuelled by faith authority.
+
+A dynasty that survives long enough to invest in all three becomes much harder to destroy.
 
 ## Tips
 
-- 🏆 Grow your **prestige, titles and great works** to earn renown faster.
-- ⏳ Think in **centuries** — legacies pay off across many reigns.
-- 🛡️ The surest way to earn renown is simply to **not die out** — protect the [[Your Dynasty and Heirs|bloodline]].
+- Grow prestige, titles and great works to earn renown faster.
+- Think in centuries, not only in one reign.
+- Protect the [[Your Dynasty and Heirs|bloodline]]. No dynasty, no legacy.
 
 ---
 
-*Next: [[Relics and Treasures]] · Related: [[Culture and Innovations]], [[Your Dynasty and Heirs]].*
+*Next: [[Relics and Treasures]] - Related: [[Culture and Innovations]], [[Your Dynasty and Heirs]].*

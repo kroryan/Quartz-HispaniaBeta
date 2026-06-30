@@ -1,52 +1,58 @@
 ---
 title: Your Council
-description: The five great officers of the crown, what each does for your realm, and the missions they carry out over time.
+description: The seven great offices, what skills they use, and the missions they carry out over time.
 tags:
   - court
 ---
 
-# 🪑 Your Council
+# Your Council
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-The **council** is your inner circle of officers. Appoint capable, loyal people and they strengthen the realm year after year — and each pursues a long-running **mission** that ties your systems together.
+The **council** is your inner circle of officers. Appoint capable, loyal people and they strengthen the realm year after year. Appoint careless, disloyal or over-mighty people and the same office can become a problem.
 
-## The five great offices
+## The seven offices
 
-| Office | Skill it uses | What a good holder does for you | Their standing mission |
+| Office | Skill | Main value | Standing mission choices |
 |---|---|---|---|
-| 🖋️ **Chancellor** | Diplomacy | Smoother diplomacy, stronger claims | Fabricates a **claim** on a hostile house (a reason to go to [[War]]) |
-| ⚔️ **Marshal** | Martial | A stronger, readier army | **Drills the host** — raises troop morale and the war chest |
-| 💰 **Steward** | Stewardship | Better income and growth | **Develops** one of your provinces |
-| 🕵️ **Spymaster** | Intrigue | Uncovers secrets and threats | Finds **leverage** (a hook) over a rival — see [[Intrigue and Schemes]] |
-| ⛪ **Chaplain** | Learning/Piety | Stronger faith and Church favour | **Spreads your faith** in a province — see [[Faith and Religion]] |
+| **Chancellor** | Diplomacy | Popular order, relations and claims | Fabricate claims or improve relations |
+| **Marshal** | Martial | Army readiness, morale and control | Drill troops or control hostile power |
+| **Military Councillor** | Martial | Extra military support | Train or help control hostile houses |
+| **Treasurer** | Stewardship | Gold, Treasury and development | Develop a province or collect taxes |
+| **Financial Councillor** | Stewardship | Secondary economy support | Develop or collect taxes |
+| **Chaplain / High Priest** | Learning | Faith authority and conversion | Convert provinces or build piety |
+| **Spymaster** | Intrigue | Secrets and conspiracy control | Find hooks or disrupt plots |
 
-## Pick capable *and* loyal
+The names and religious flavour can change with your rank and faith, but the jobs are the same strategic levers.
+
+## Pick capable and loyal
 
 ```mermaid
 flowchart TD
-    A[Appoint an officer] --> B{Capable & loyal?}
-    B -->|yes| C[✅ Strengthens a pillar<br/>each year + runs their mission]
-    B -->|no| D[⚠️ May embezzle, plot,<br/>or resent the crown]
+    A[Appoint an officer] --> B{Capable and loyal?}
+    B -->|yes| C[Strengthens the realm<br/>and advances mission]
+    B -->|no| D[Can embezzle, plot<br/>or resent you]
 ```
 
-A skilled, loyal officer is a steady blessing. A disloyal or over-mighty one can **embezzle**, **scheme**, or grow resentful — sometimes more dangerous in office than out of it. Weigh both skill and loyalty.
+A skilled officer makes their yearly effects stronger. Loyalty decides whether that skill works for you or against you.
 
 ## Missions take time
 
-Each officer's standing mission advances slowly — only when they're capable, and only every so often — so the benefits build up gradually rather than all at once. A patient chancellor eventually hands you a ready **claim**; a diligent steward visibly grows a province.
+Council missions do not fire every turn. They advance on a slow yearly rhythm and often require the officer to meet a skill threshold. A good chancellor can mature a claim; a good treasurer or financial councillor can develop land; a good chaplain can slowly shift province faith.
 
 ## Politics of appointment
 
-Handing out offices isn't neutral. **Powerful houses left out of the council grow restless** and may demand a seat. Appointing and dismissing officers shifts how the [[Noble Houses and Vassals|noble houses]] feel about you. Use offices as rewards to keep the mighty content.
+Offices are political rewards. Powerful landed houses may demand seats, and leaving them outside power can hurt relations or claims. Sometimes the best appointment is not the single highest stat, but the strongest compromise between skill, loyalty and house politics.
 
 ## Tips
 
-- 🎯 Match the **person to the office** — a brilliant diplomat as Chancellor, a warrior as Marshal.
-- 🤝 Keep an eye on **loyalty**, not just skill.
-- 👑 Use seats to **appease powerful houses** before they form factions.
-- ⏳ Let missions run — appoint and *leave* good officers in place.
+- Match skill to office.
+- Do not ignore loyalty.
+- Use chancellors for claims before wars.
+- Use marshal and military councillor before dangerous campaigns.
+- Use treasurer and financial councillor before debt becomes a crisis.
+- Keep a strong spymaster when factions or hooks matter.
 
 ---
 
-*Next: [[Noble Houses and Vassals]] · Related: [[The Royal Court]], [[Intrigue and Schemes]].*
+*Next: [[Noble Houses and Vassals]] - Related: [[The Royal Court]], [[Intrigue and Schemes]].*

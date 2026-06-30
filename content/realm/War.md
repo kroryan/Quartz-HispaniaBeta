@@ -1,86 +1,101 @@
 ---
 title: War
-description: Declaring war, casus belli and claims, war scope, how battles and war score work, conquest, and civil wars.
+description: Claims, war scope, rank rules, campaign reach, war score, conquest and civil war.
 tags:
   - realm
 ---
 
-# ⚔️ War
+# War
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-War is how realms grow and fall. It's powerful, but it isn't free — and you can't simply attack anyone, anytime.
+War is how titles and counties change hands. It is powerful, expensive and restricted by claims, rank, reach and alliances.
 
 ![[war-screen.png]]
-*The war screen — declare wars, set their scope, and follow the campaign.*
+*The war screen - choose scope, prepare claims, follow war score and manage the campaign.*
 
-## You need a reason: the claim
+## You need a claim
 
-You can't declare war out of thin air. First you need a **claim** — a legal pretext (a *casus belli*) on the land you want. You press a claim (through [[Diplomacy and Alliances|diplomacy]] or via your [[Your Council|chancellor]]), it takes a few **years to mature**, and then it's valid as a reason for war for a limited window before it lapses.
+You cannot declare most wars out of thin air. First you need a **claim**: a legal reason to fight for a county, duchy or kingdom. Claims can come from diplomacy, council work or events.
 
 ```mermaid
 flowchart LR
-    A[Press a claim] -->|matures over a few years| B[Valid casus belli ⚖️]
-    B -->|use it| C[Declare war]
-    B -->|wait too long| D[Claim lapses ✖️]
+    A[Press or fabricate claim] --> B[Claim matures]
+    B --> C[Valid casus belli]
+    C --> D[Declare war]
+    C -->|wait too long| E[Claim lapses]
 ```
 
-## Other conditions
+Claims are not permanent. Once ready, a war claim stays valid for a limited window, currently **12 years**, before it lapses.
 
-Before you can declare, the game checks that:
-- 💪 You have enough **Army** strength (more for bigger wars).
-- 📏 The target is **within reach** of your borders — you can't strike across the whole peninsula from a single county.
-- 🪜 The war makes sense by **rank** — a small count can't simply declare on a mighty king (with exceptions once al-Andalus fragments).
-- 🤝 You're **not allied** with the target.
-- 🔒 The target isn't **protected** (remember: unified al-Andalus can't be touched until the taifas form — see [[The Map of Hispania]]).
+## The declaration checklist
 
-## War scope: how much is at stake
+Before war is allowed, the game checks that:
 
-You choose the **scope** of a war, which decides what changes hands if you win:
+- You have a landed playable title and enough **Army** standing.
+- Bigger wars require more Army standing.
+- The target is not your own province or title.
+- Your house is not allied with the target house.
+- You do not already have an active player war.
+- The target title is not already tied up in another active war.
+- The target is within campaign reach from your lands, vassal route or adjacent war theatre.
+- The rank ladder makes sense: rulers normally fight equals or one tier below, with special exceptions for fragmented taifas.
+- Unified al-Andalus is not protected from attack before taifa fragmentation.
 
-| Scope | If you win, you take… |
+## War scope
+
+You choose the **scope** before declaring. Scope decides what is at stake:
+
+| Scope | If you win |
 |---|---|
-| 🏰 **County war** | the single target province |
-| 🎖️ **Duchy war** | the defender's provinces in that duchy (and the duchy title) |
-| 👑 **Kingdom war** | the defender's lands across that kingdom (and the crown) |
+| **County war** | You take the target province. |
+| **Duchy war** | You take the defender's lands inside that duchy and contest the duchy title. |
+| **Kingdom war** | You take the defender's lands across that kingdom and contest the crown/emirate. |
 
-Bigger scope means a bigger prize — and a tougher fight.
+Bigger wars can transform the map, but they need stronger claims, reach, troops and finances.
 
-## How a war plays out
+## Campaigns and war score
 
-A war isn't one clash; it's a **campaign** fought over seasons, with battles, sieges and raids across the theatre. A hidden **war score** swings between the two sides as battles are won and lost. Reach a decisive lead and you win; let it swing far against you and you lose. Wars also have a maximum length before they resolve.
+Wars play out over seasons through battles, sieges, attrition and manoeuvre. The war score ranges from **-100** to **+100**. A side wins decisively at about **70** in its favour. A siege reaching full progress can also resolve the war, and a war that drags on too long can end in peace after roughly **8 years**.
 
 ```mermaid
 flowchart TD
-    A[War declared] --> B[Seasonal campaign:<br/>battles & sieges]
-    B --> C[War score swings ⚖️]
-    C -->|decisive for you| W[🏆 You win — take the land]
-    C -->|decisive against you| L[💀 You lose]
-    C -->|drags on too long| P[🤝 It resolves / peace]
+    A[War declared] --> B[Seasonal campaign]
+    B --> C[War score shifts]
+    C -->|+70 for attacker| W[Attacker victory]
+    C -->|-70 for defender| L[Defender victory]
+    C -->|siege complete| S[Terms forced]
+    C -->|8 years pass| P[Peace]
 ```
 
-Your strength comes from your levies and professional troops — see [[Armies and Men-at-Arms]]. You can also try to **negotiate peace** during a war.
+## What determines strength
 
-## Winning, losing and the cost
+Your war strength comes from:
 
-- 🏆 **Win** and you seize the contested lands and titles, and grow your realm.
-- 💀 **Lose** and you may forfeit land, gold and prestige — and your monarch takes the stress of defeat.
-- 💰 War is **expensive**: it costs upkeep and strains the [[Economy and Gold|treasury]] and the [[The Four Powers|People]].
+- Army Power and command standing.
+- Levies, archers, riders and war funds.
+- [[Armies and Men-at-Arms|Men-at-arms]] such as spearmen and heavy foot.
+- Land, forts, buildings and development.
+- Alliances that add military support.
+- Rank: kings, dukes, counts and barons do not field the same weight from equal land.
+
+Spearmen are especially useful against militarily powerful houses that field heavy cavalry.
 
 ## Civil war
 
-The most dangerous war is the one *inside* your realm. If your **Army grows over-mighty**, or your nobles are pushed too far, a **civil war** can erupt: a powerful vassal rebels, part of your army defects, and you must fight to keep your throne. You can choose to **fight** or **negotiate** — but losing a civil war can cost you the crown itself.
+The most dangerous war is internal. If your Army becomes too dominant, or noble pressure gets out of hand, a civil war can challenge your rule. You may fight or negotiate, but losing can cost your title or end the run if no heir and fallback holding survive.
 
-> [!warning] Don't fight wars you can't pay for
-> Every active war drains your treasury and tires your people. Win quickly, pick fights you can afford, and never let the Army become so powerful it turns on you.
+> [!warning] Do not fight wars you cannot pay for
+> Men-at-arms, war funds, attrition and debt all turn victories into long-term problems if your economy is weak.
 
 ## Tips
 
-- 📜 **Make a claim first** — no claim, no war.
-- 🎯 Match **scope** to your strength: take counties when small, kingdoms when mighty.
-- 💰 Keep gold in reserve before you start.
-- 🛡️ Watch your **Army** Power — too low can't fight, too high can rebel.
+- Keep a claim maturing before you need it.
+- Use county wars while small; save kingdom wars for strong realms.
+- Secure alliances before declaring.
+- Check reach and rank. If the button refuses war, the blocker is often not only the claim.
+- Keep gold in reserve for upkeep and emergencies.
 
 ---
 
-*Next: [[Armies and Men-at-Arms]] · Related: [[Diplomacy and Alliances]], [[The Map of Hispania]].*
+*Next: [[Armies and Men-at-Arms]] - Related: [[Diplomacy and Alliances]], [[The Map of Hispania]].*

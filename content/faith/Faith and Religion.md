@@ -1,53 +1,56 @@
 ---
 title: Faith and Religion
-description: Your personal faith, converting provinces to your religion, and why faith shapes marriage, the Church and the Pope.
+description: Christian, Islamic and Jewish rule, province conversion, marriage rules, doctrines and the Pope.
 tags:
   - faith
 ---
 
-# ☪️✝️ Faith and Religion
+# Faith and Religion
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-In the world of the Reconquista, faith is everywhere — in your marriages, your wars, your legitimacy, and the loyalty of your people. It works on two levels: **your ruler's own religion**, and the **religion of your provinces' populations**.
+Faith shapes legitimacy, marriage, succession, province loyalty and which institutions judge you. It works on two levels: **your ruler's religion** and the **religious makeup of your provinces**.
 
 ## Your ruler's faith
 
-Your monarch follows a faith — Christian, Muslim or Jewish — and it shapes the rules you live by:
-- 💍 **Marriage customs** — some faiths allow only one spouse, others permit secondary marriages (see [[Marriage and Family]]).
-- ⛪ **The [[The Papacy|Pope]]** — only Christian rulers answer to Rome (and can be excommunicated).
-- 🧬 **Inheritance** — your children inherit the dynasty's faith, so a conversion echoes down the generations.
+Your ruler may be Christian, Muslim or Jewish. Faith affects:
 
-Bold rulers can even **convert** the whole realm's faith through dramatic events — a momentous, identity-changing choice.
+- **The first Power bar** - Church for Christians, Umma for Muslims, Aljama for Jewish rulers.
+- **Marriage rules** - most rulers are monogamous; Islamic male rulers may have up to four living spouses.
+- **The Papacy** - only Christian rulers answer to Rome and can be excommunicated.
+- **Doctrines** - Christian and Islamic rulers use different doctrine sets.
+- **Succession** - Islamic secular inheritance currently excludes women.
 
-## Converting your provinces
+Bold events can change the dynasty's faith, but that is a major identity shift. Review marriage, heirs and papal status afterward.
 
-The people of a province have their own religious make-up. You can **spread your faith** in counties **you actually control**, gradually shifting the population toward your religion.
+## Converting provinces
+
+Provinces have their own religious population balance. You can push conversion only in land your house controls.
 
 ```mermaid
 flowchart LR
-    A[Push conversion in a<br/>county you control] --> B[Population shifts<br/>toward your faith]
-    B --> C[⛪ Church Power rises]
-    C --> A
-    X[Try it in land you<br/>don't control] --> Y[🚫 Not allowed]
+    A[Controlled province] --> B[Push conversion]
+    B --> C[Population shifts<br/>toward your faith]
+    C --> D[Faith authority improves]
+    X[Foreign province] --> Y[Not eligible]
 ```
 
-- The stronger your **[[The Four Powers|Church]]** standing, the more effective each push.
-- Converting people in turn **raises your Church Power**.
-- You can only push **once per season per province**, so it's a steady campaign, not an instant flip.
+Your chaplain or high priest can also work on conversion as a council mission. Strong faith authority makes conversion more reliable; converted land is easier to stabilise after conquest.
 
-Your [[Your Council|chaplain]] can also spread the faith automatically as their standing mission.
+## Why faith matters strategically
 
-## Why bother converting?
-
-A realm united in your faith is more loyal and more stable, strengthens your Church standing, and removes a source of unrest. As you conquer south into [[The Map of Hispania|al-Andalus]], converting your new lands is part of consolidating them.
+- Christian rulers can ask the [[The Papacy|Pope]] for favours, divorce, legitimation and campaign support.
+- Muslim rulers avoid papal interdict and use Umma-flavoured systems, but must plan around Islamic marriage and succession rules.
+- Jewish-flavoured rule uses Aljama language and is outside papal excommunication.
+- Newly conquered provinces are easier to hold when their population aligns with the ruling faith.
 
 ## Tips
 
-- ⛪ Keep your **Church Power** healthy to make conversions effective.
-- 🗺️ Convert lands **after** you secure them — you can only work in what you hold.
-- 🧬 Remember conversions and faith pass to your **heirs**.
+- Check your heir list after any faith change.
+- Convert only what you control.
+- If Christian, keep faith authority and tyranny in balance to avoid [[Doctrines and Excommunication|excommunication]].
+- If Islamic, use the larger marriage pool carefully: more spouses can mean more heirs and more politics.
 
 ---
 
-*Next: [[The Papacy]] · Related: [[Doctrines and Excommunication]], [[Marriage and Family]].*
+*Next: [[The Papacy]] - Related: [[Doctrines and Excommunication]], [[Marriage and Family]].*

@@ -1,61 +1,65 @@
 ---
 title: Your Dynasty and Heirs
-description: Why your bloodline is the true hero — heirs, succession, extinction, and how to keep the crown in the family.
+description: Why your chosen house is the true hero - heirs, succession, extinction and how to keep the line alive.
 tags:
   - dynasty
 ---
 
-# 👨‍👩‍👧 Your Dynasty and Heirs
+# Your Dynasty and Heirs
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> *Game as of **30 June 2026** (beta) - details may change.*
 
-In *Hispania Royal House*, **you are not a single king — you are a family across the centuries.** Individual monarchs are chapters; the dynasty is the book. Keeping that book open is your single most important job.
+In *Hispania Royal House*, you are not only one ruler. You are a **house across the centuries**. The start selector marks the house you chose as your bloodline, while its members keep their historical identity, names, culture, faith and titles.
 
 ## The dynasty tree
 
-Every relative — your spouse, children, siblings, cousins, even foreign in-laws — lives in your **family tree**. Each has an age, traits, skills and a place in the line of succession. You can open the tree to see who's who, who's healthy, who's a potential heir, and who might cause trouble.
+Every relative - spouse, children, siblings, cousins, in-laws and important house members - lives in your **family tree**. Each has age, traits, skills, faith, culture and succession relevance.
 
 ![[dynasty-tree.png]]
-*The dynasty tree — your bloodline laid out across the generations.*
+*The dynasty tree - your bloodline laid out across generations.*
 
 ## What is an heir?
 
-An **heir** is the person who will inherit the throne when your current monarch dies. The game always tries to have one ready. Who it is depends on your **[[Succession Laws|succession law]]** and your living relatives.
+An **heir** is the person who can continue the playable house when your current ruler dies. Who qualifies depends on your [[Succession Laws|succession law]], legitimacy, faith rules and living relatives.
 
 ```mermaid
 flowchart TD
-    K[Reigning monarch dies] --> Q1{A named or natural<br/>eligible heir?}
-    Q1 -->|yes| H[They are crowned 👑]
-    Q1 -->|no| Q2{Any eligible<br/>blood relative?}
+    K[Current ruler dies] --> Q1{Named or natural<br/>eligible heir?}
+    Q1 -->|yes| H[They inherit]
+    Q1 -->|no| Q2{Eligible blood relative?}
     Q2 -->|yes| H
-    Q2 -->|no, on easier modes| R[A blood relative<br/>is elevated once]
-    Q2 -->|no, on Hard| X[💀 The dynasty ends]
+    Q2 -->|no, Easy/Normal| R[Emergency blood relative<br/>may be elevated]
+    Q2 -->|no, Hard| X[Defeat]
     R --> H
 ```
 
 ## You can name your heir
 
-You don't have to accept the default. From the dynasty menu you can **designate** an eligible relative as your chosen successor — useful when the natural heir is a sickly child, has terrible traits, or you prefer a more capable cousin. The available choices depend on your [[Succession Laws|law]].
+From the dynasty menu you can designate an eligible relative as successor. This is useful when the default heir is weak, sickly, too young or politically dangerous. Eligibility still follows your law and faith.
 
-## The nightmare: extinction
+## Faith changes succession
 
-If a monarch dies and there is **no valid heir at all**, the game is over — the House of Pelayo falls and history forgets you. This is the true lose condition (alongside being overthrown). See [[Winning and Losing]].
+Most laws are about blood, gender and legitimacy, but faith can add rules. For example, an Islamic ruler's succession excludes women from secular inheritance in the current implementation. If you switch faiths, review the heir list immediately.
 
-> [!warning] Keep the family wide, not just deep
-> A single sickly heir is fragile. Plague, war and accidents can wipe out a narrow line in a few turns. A dynasty with **several** living relatives is far safer — there's always someone to inherit.
+## Extinction
+
+If your ruler dies and there is **no valid heir**, the selected house can fall and the run ends. The game is more forgiving on Easy and Normal, where a distant blood relative can sometimes rescue continuity. On Hard, plan as if no one will save you.
+
+> [!warning] Keep the family wide
+> A single heir is fragile. Plague, war, poison, bad childbirth timing or a succession accident can erase a narrow line. Several living legitimate relatives are much safer.
 
 ## A feudal safety net
 
-Even if you lose your throne or your last great title, the game tries not to end the dynasty prematurely: a fallen monarch can be left with a small **holding** (a barony) in their last lands, giving you a feudal second chance to climb back up. See [[Climbing the Ladder]].
+Even after losing a great title, the game may try to leave your house a small **barony** foothold in its last lands. That is not victory, but it is survival: a chance to climb back through [[Climbing the Ladder]].
 
 ## How to keep the line secure
 
-1. 💍 **Marry early** — no spouse, no legitimate children. See [[Marriage and Family]].
-2. 👶 **Have several children**, not just one. Aim for an heir *and* spares.
-3. 🧬 Mind their **[[Traits and Your Character|traits and health]]** — raise capable, stable heirs.
-4. 🛡️ Consider **legitimising a [[Bastards|bastard]]** if your legitimate line is in danger.
-5. 📜 Pick a **[[Succession Laws|succession law]]** that fits the family you actually have.
+1. Marry early unless your house already has enough heirs.
+2. Aim for several children and several adult relatives.
+3. Watch traits, age and health when naming heirs.
+4. Legitimise a [[Bastards|bastard]] if the legitimate line is in danger.
+5. Change [[Succession Laws|succession law]] only after checking who would actually inherit.
 
 ---
 
-*Next: [[Succession Laws]] · Related: [[Marriage and Family]], [[Bastards]].*
+*Next: [[Succession Laws]] - Related: [[Marriage and Family]], [[Bastards]].*

@@ -1,58 +1,63 @@
 ---
 title: Armies and Men-at-Arms
-description: Feudal levies versus professional regiments, the counters between troop types, and the cost of keeping soldiers.
+description: Feudal levies, professional regiments, counters, recruitment costs and seasonal upkeep.
 tags:
   - realm
 ---
 
-# 🛡️ Armies and Men-at-Arms
+# Armies and Men-at-Arms
 
-> 📌 *Game as of **29 June 2026** (beta) — details may change.*
+> Game as of **30 June 2026** (beta). Details may change.
 
-Your fighting strength in [[War]] comes from two very different kinds of soldier.
+Your strength in [[War]] comes from your lands, ruler, allies, rank and professional soldiers. Men-at-arms are powerful, but they cost real gold every season.
 
 ## Levies vs. professionals
 
 | Type | What they are | Notes |
 |---|---|---|
-| 🚜 **Levies** | The mass feudal host — peasants, archers, riders called up for war | Numerous but ordinary |
-| 🛡️ **Men-at-arms** | Small **professional** regiments — spearmen and heavy foot | Few, but punch far above their numbers |
+| Levies | The broad feudal host raised from your lands | Cheap, numerous and tied to realm strength |
+| Men-at-arms | Professional spearmen and heavy foot | Smaller, stronger and expensive to maintain |
 
-Levies give you bulk; men-at-arms give you a hard, reliable edge — at a price.
+Levies give bulk. Professionals give a reliable edge when a war is close.
 
-## The counter that matters
+## Regiment types
 
-Professional regiments aren't just stronger — they **counter** specific enemies:
+| Regiment | Recruit cost | Men gained | Best use |
+|---|---:|---:|---|
+| Spearmen | 40 gold | 12 | Countering cavalry-heavy or militarily powerful enemies |
+| Heavy foot | 55 gold | 9 | Reliable strength in most battles |
+
+Seasonal upkeep is based on the total number of professional soldiers: roughly **1 gold per 8 men-at-arms each season**. If you cannot pay, regiments can shrink and morale suffers.
 
 ```mermaid
 flowchart LR
-    S[🛡️ Spearmen<br/>the shield wall] -->|strong against| H[🐎 Heavy cavalry<br/>a militarily mighty house]
-    HF[🪓 Heavy foot<br/>the anvil] -->|reliable, flat strength| L[any battle line]
+    S[Spearmen] --> C[Good into cavalry power]
+    H[Heavy foot] --> R[Reliable battle strength]
+    G[Gold income] --> U[Seasonal upkeep]
+    U --> A[Professionals stay effective]
 ```
 
-- **Spearmen** are the shield wall — especially strong against a foe that fields heavy horse (a militarily powerful house).
-- **Heavy foot** are the anvil — dependable strength in any fight.
+## What decides war strength
 
-Knowing your enemy lets you bring the right regiments.
+The war system compares more than raw soldier count:
 
-## They cost real money
+- Rank and title weight: kingdoms project more force than duchies, counties or baronies.
+- Land and holdings controlled by each side.
+- Men-at-arms, morale and war chest.
+- Allies and pacts.
+- Council preparation, especially marshal and military councillor work.
+- The target's own stability and internal problems.
 
-Men-at-arms are **expensive to raise and to keep**. You recruit them with gold, and they draw **upkeep every season from your war chest**. If you can't pay them, they **desert** — your regiments shrink and morale drops. Professional soldiers are a serious, ongoing commitment, not a one-time purchase.
-
-> [!tip] Quality you can afford
-> A handful of well-paid spearmen can decide a war — but only if your [[Economy and Gold|treasury]] can sustain them. Don't recruit an army you'll have to watch desert.
-
-## Strengthening your host
-
-Your [[Your Council|marshal]] can drill the troops over time, raising morale and building the war chest. A strong economy, a capable marshal and the right counters together make you formidable.
+This is why a wealthy county with allies can survive, while a poor kingdom can look stronger than it really is.
 
 ## Tips
 
-- 🐎 Facing a cavalry-heavy enemy? Field **spearmen**.
-- 💰 Only keep as many professionals as you can **pay** each season.
-- 🏋️ Let your **marshal** drill the host between wars.
-- ⚖️ Remember the [[The Four Powers|Army Power]] bar reflects your overall martial standing — keep it healthy but not over-mighty.
+- Recruit spearmen before fighting a cavalry-heavy rival.
+- Use heavy foot when you need general-purpose strength.
+- Do not recruit professionals your economy cannot pay.
+- Drill and prepare before declaring. A claim is not the same thing as readiness.
+- Lower-rank starts should treat men-at-arms as a decisive tool, not a standing luxury.
 
 ---
 
-*Next: [[Diplomacy and Alliances]] · Related: [[War]], [[Economy and Gold]].*
+*Next: [[Diplomacy and Alliances]] - Related: [[War]], [[Economy and Gold]], [[Your Council]].*
